@@ -5,9 +5,11 @@ package com.oops;
 
 abstract class Parent1
 {
+	int a = 90;
 	Parent1()
 	{
 		System.out.println("mai parent hu");
+		System.out.println(a);
 	}
 	public void warning()
 	{
@@ -61,6 +63,9 @@ public class Abstractclass {
 		Parent1 obj = new Child01();
 		obj.warning();
 		obj.warm();
+//----we can modify a variable which is initialized in abstract class		
+		obj.a = 50;
+
 	}
 
 }
