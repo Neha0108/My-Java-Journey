@@ -7,6 +7,15 @@ interface Bicycle
 {
 	void applybrake(int decrement);
 	void speedup(int increment);
+	// default methods we don't have to implement default methods into class
+	default void gears()
+	{
+		System.out.println(".........");
+	}
+	private void model()
+	{
+		System.out.println("can also implement private methods");
+	}
 }
 class Nehacycle implements Bicycle
 {
