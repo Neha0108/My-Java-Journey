@@ -1,6 +1,6 @@
-package com.oops.practice;
+package com.oops;
 
-public class Online_Library {
+public class TryAndCatch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
