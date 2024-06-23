@@ -3,12 +3,13 @@ package com.swing;
 import java.awt.Color;
 
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class MyFrame extends JFrame {
 
 	MyFrame()
-	{
+	{	
 		this.setTitle("JFrame titile goes to here");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
