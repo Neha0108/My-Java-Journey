@@ -38,6 +38,7 @@ public class FrameButton extends JFrame implements ActionListener{
 			button.setForeground(Color.cyan);
 			button.setBackground(Color.BLUE);
 			button.setBorder(BorderFactory.createEtchedBorder());
+			
 			this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			this.setLayout(null);
 			this.setResizable(false);
